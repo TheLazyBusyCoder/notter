@@ -1,0 +1,223 @@
+.home {
+  background-color: rgb(30, 30, 30);
+  height: 100vh;
+}
+
+.content {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr;
+  height: 90vh;
+}
+
+.left_side {
+  background-color: white;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.left_list_box {
+  background-color: white;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.menu_bar {
+  height: 3rem;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.add_icon {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input {
+  font-size: 1rem;
+}
+
+.text_input {
+  font-size: 1.2rem;
+  height: 50%;
+  width: 70%;
+  padding: 5px;
+}
+
+.modal {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(50, 50, 50, 0.5);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right_side {
+  background-color: rgb(30, 30, 30);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.right_size_box {
+  background-color: rgb(30, 30, 30);
+  height: 95%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.page {
+  background-color: white;
+  width: 95%;
+  height: 100%;
+  padding-right: 5px;
+  color: black;
+  padding-left: 5px;
+  overflow-y: scroll;
+}
+
+.main_menu {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  height: 5%;
+  padding: 5px;
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.code-block {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  overflow-x: auto;
+  font-size: 17px;
+  margin: 16px 0;
+}
+
+.code-block .token {
+  font-family: "Fira Code", monospace;
+}
+
+.delete_icon {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 100%;
+  font-weight: bold;
+}
+
+.delete_icon:hover {
+  background-color: rgb(158, 0, 0);
+}
+
+.left_heading {
+  font-size: 1rem;
+  display: flex;
+  border: 2px solid black;
+  width: 90%;
+  height: min-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.button_div {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  align-items: center;
+}
+
+.insert_menu {
+  width: 200px;
+  top: 35px;
+  left: 0px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  align-items: start;
+  font-size: 1.2rem;
+}
+.insert_menu2 {
+  width: 200px;
+  top: 0px;
+  left: 215px;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  align-items: start;
+  font-size: 1.2rem;
+}
+
+.insert_menu_button {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.menu_items {
+  width: 100%;
+  padding: 2px;
+}
+
+.menu_items:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.insert_menu_button:hover {
+  background-color: green;
+  color: white;
+}
+
+.insert_menu_hr {
+  border: 1px solid black;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
